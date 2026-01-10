@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 20px;
+    color: #212121;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 24px;
+  }
+  
+  .form > label {
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    gap: 10px;
+  }
+  
+  input[name="delay"] {
+    padding: 8px 12px;
+    font-size: 18px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  fieldset {
+    border: 2px solid #808080;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  legend {
+    font-size: 24px;
+    padding: 0 8px;
+    margin-left: 10px;
+  }
+  
+  fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    transform: scale(1.5);
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e0e0e0;
+  }
